@@ -1,106 +1,128 @@
-body {
-  margin: 0%;
+* {
+  margin: 0;
 }
 
 header {
+  height: 100px;
   background-color: #4EA0FF;
   background-image: url(../img/pattern.png);
   background-repeat: repeat;
   background-size: 25%;
-  margin: 0%;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
 }
 
 header img {
-  margin-left: 10%;
-  margin-top: 2%;
-  width: 200px;
+  height: 50px;
+  margin-top: 40px;
 }
 
 main {
-  margin-left: 10%;
-  margin-right: 10%;;
-  background-color: #FFFFFF;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-section h1 {
-  font-style: bold;
-  margin-bottom: 0%;
-  font-size: 200%;
+h1 {
+  font-size: 38px;
+  line-height: 40px;
 }
 
-section h4 {
-  margin-top: 7px;
-  margin-bottom: 2px;
+.author {
+  color: #808080;
+  font-size: 16px;
 }
 
-section h5 {
-  margin-top: 0px;
-}
-
-.link {
+.author-name {
   color: #20A9E5;
 }
 
-.gray {
-  color: #8A8A8A;
+.date {
+  color: #808080;
+  font-size: 12px;
 }
 
-section img {
+.photo, .content {
+  margin-top: 20px;
+}
+
+.tim-img {
   height: 250px;
 }
 
-.photo-reference {
-  margin: 0px;
-  font-size: 70%;
+.caption {
+  font-size: 12px;
 }
 
-.highlighted {
+.highlight {
   background-color: #FFFF00;
 }
 
-section ul {
-  padding-left: 15px;
+.content ul {
+  margin-top: 10px;
+  margin-left: -22px;
+  margin-bottom: 20px;
 }
 
-table {
+.content table {
   width: 100%;
   text-align: left;
+  margin-bottom: 20px;
 }
 
-th {
-  width: 30%; 
+.content table thead .text {
+  width: 50%; 
 }
 
-table, th, td {
+.content table, th, td {
   border-collapse: collapse;
-  border: 0px solid black;
+  border: 0px;
 }
 
-thead {
+.content table thead {
   background-color: #20A9E5;
   color: #FFFFFF;
 }
 
-tbody {
+.content table tbody {
   background-color: #B1E5F2;
 }
 
-.white {
+.content table tbody .even {
   background-color: #FFFFFF;;
 }
 
 footer {
-  margin-left: 10%;;
+  margin-top: 20px;
 }
 
-.related-title {
-  color: #FFFFFF;
-  font-weight: 900;
-  font-size: 130%;
-  margin-left: 10px;
-  margin-top: -200px;
+footer h4 {
+  color: #808080;
 }
 
 footer div {
   margin-bottom: 190px;
+}
+
+footer .image {
+  width: 230px;
+  height: 160px;
+  margin: 10px 0;
+  background-size: cover;
+}
+
+#monitor {
+  background-image: url(../img/monitor.jpg);
+}
+
+#graph {
+  background-image: url(../img/graph.jpg);
+}
+
+footer h3 {
+  color: #FFFFFF;
+  line-height: 30px;
+  margin: 10px 10px;
 }
